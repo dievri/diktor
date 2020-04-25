@@ -34,7 +34,7 @@ xkb_symbols "basic" {
     key <AD12> {	[ Cyrillic_shcha, Cyrillic_SHCHA	]	};
 
     key <AC01> {	[ Cyrillic_u, Cyrillic_U	]	};
-    key <AC02> {	[ Cyrillic_i, Cyrillic_I	]	};
+    key <AC02> {	[ Cyrillic_ie, Cyrillic_IE	]	};
     key <AC03> {	[ Cyrillic_e, Cyrillic_E	]	};
     key <AC04> {	[ Cyrillic_o, Cyrillic_O	]	};
     key <AC05> {	[ Cyrillic_a, Cyrillic_A	]	};
