@@ -10,7 +10,7 @@ Just run setup.exe from diktorru directory. It will install layout to the Russia
 ```
 diktor          Russian Typewriter Diktor
 ```
-3. To the file /usr/share/X11/xkb/rules/base.xml and /usr/share/X11/xkb/rules/evdev.xml under section '<layoutList>', add following lines
+3. To the file /usr/share/X11/xkb/rules/base.xml and /usr/share/X11/xkb/rules/evdev.xml under section `<layoutList>`, add following lines
 ```
 <layout>
       <configItem>
