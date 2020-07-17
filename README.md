@@ -30,4 +30,4 @@ You can edit this layour for your own needs, using [Microsoft Keyboard Layout Cr
 
 ![Diktor](https://raw.githubusercontent.com/dievri/diktor/master/diktor.jpg)
 
-Author on klavogonki.ru: [http://klavogonki.ru/u/#/155947/](http://klavogonki.ru/u/#/155947/)
+Author on klavogonki.ru: [http://klavogonki.ru/u/#/139358/](http://klavogonki.ru/u/#/139358/)
