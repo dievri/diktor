@@ -6,7 +6,13 @@ Just run setup.exe from diktorru directory. It will install layout to the Russia
 
 # Installation on Ubuntu
 
-You can download `add_diktor.sh` script and run as a superuser. Or follow instruction below.
+For automatic install run the following command
+
+```
+sudo wget -O - https://raw.githubusercontent.com/dievri/diktor/master/add_diktor.sh | bash
+```
+
+For manual installation, follow this steps:
 
 1. Copy file `diktor` from linux directory to the  /usr/share/X11/xkb/symbols directory.
 2. To the file /usr/share/X11/xkb/rules/base.lst and /usr/share/X11/xkb/rules/evdev.lst under section `! layout`, add following line
