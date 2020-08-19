@@ -5,6 +5,9 @@ Russian Diktor + Typewriter Layout
 Just run setup.exe from diktorru directory. It will install layout to the Russian layouts with name "diktorru"
 
 # Installation on Ubuntu
+
+You can download `add_diktor.sh` script and run as a superuser. Or follow instruction below.
+
 1. Copy file `diktor` from linux directory to the  /usr/share/X11/xkb/symbols directory.
 2. To the file /usr/share/X11/xkb/rules/base.lst and /usr/share/X11/xkb/rules/evdev.lst under section `! layout`, add following line
 ```
