@@ -9,7 +9,7 @@ Just run setup.exe from diktorru directory. It will install layout to the Russia
 For automatic install run the following command
 
 ```
-sudo wget -O - https://raw.githubusercontent.com/dievri/diktor/master/add_diktor.sh | bash
+wget -O - https://raw.githubusercontent.com/dievri/diktor/master/add_diktor.sh | sudo bash
 ```
 
 For manual installation, follow this steps:
