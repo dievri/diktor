@@ -1,5 +1,6 @@
 # diktor
 Russian Diktor + Typewriter Layout
+![Diktor](https://raw.githubusercontent.com/dievri/diktor/master/diktor.jpg)
 
 # Installation on windows
 Just run setup.exe from diktorru directory. It will install layout to the Russian layouts with name "diktorru"
@@ -121,12 +122,28 @@ This should be placed somewhere after
   <variantList>
 ```
 
+For iBus, add into file `/usr/share/ibus/component/simple.xml` somewhere under section `engines` 
+
+```
+ <engine>
+    <name>xkb:ru:diktor:rus</name>
+    <language>ru</language>
+    <license>GPL</license>
+    <author>Oleksandr Dievri o.ievri@gmail.com</author>
+    <layout>ru</layout>
+    <layout_variant>diktor</ayout_variant>
+    <longname>Russian (diktor)</longname>
+    <description>Russian (diktor)</escription>
+    <icon>ibus-keyboard</icon>
+    <rank>1</rank>
+</engine>
+```
 
 For more information, visit https://ubuntu-mate.community/t/make-your-own-custom-keyboard-layout-for-linux/19733
 
 # Editing
 You can edit this layour for your own needs, using [Microsoft Keyboard Layout Creator](https://www.microsoft.com/en-us/download/details.aspx?id=22339) and the file base.klc from "file for MKLC" directory.
 
-![Diktor](https://raw.githubusercontent.com/dievri/diktor/master/diktor.jpg)
+
 
 Author on klavogonki.ru: [http://klavogonki.ru/u/#/139358/](http://klavogonki.ru/u/#/139358/)
