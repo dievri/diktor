@@ -1,5 +1,6 @@
 # diktor
 Russian Diktor + Typewriter Layout
+
 ![Diktor](https://raw.githubusercontent.com/dievri/diktor/master/diktor.jpg)
 
 # Installation on windows
