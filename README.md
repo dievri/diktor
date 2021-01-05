@@ -16,7 +16,8 @@ wget -O - https://raw.githubusercontent.com/dievri/diktor/master/add_diktor.sh |
 
 For manual installation, follow this steps:
 
-### Copy content of the file `diktor` into `/usr/share/X11/xkb/symbols/ru` file. 
+1. Copy content of the file `diktor` into `/usr/share/X11/xkb/symbols/ru` file. 
+
 After chunk
 ```
         partial alphanumeric_keys
@@ -95,11 +96,11 @@ place the following
       };
 ```
 
-### To the file `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb/rules/evdev.lst` under section `! variant`, add following line
+2. To the file `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb/rules/evdev.lst` under section `! variant`, add following line
 ```
 diktor 	  ru: Russian (diktor)
 ```
-### To the file `/usr/share/X11/xkb/rules/base.xml` and `/usr/share/X11/xkb/rules/evdev.xml` add diktor as a variant to the Russian language
+3. To the file `/usr/share/X11/xkb/rules/base.xml` and `/usr/share/X11/xkb/rules/evdev.xml` add diktor as a variant to the Russian language
 ```
 <variant>
   <configItem>
@@ -123,7 +124,7 @@ This should be placed somewhere after
   <variantList>
 ```
 
-For iBus, add into file `/usr/share/ibus/component/simple.xml` somewhere under section `engines` 
+4. For iBus, add into file `/usr/share/ibus/component/simple.xml` somewhere under section `engines` 
 
 ```
  <engine>
