@@ -93,22 +93,34 @@ place the following
       };
 ```
 
-2. To the file /usr/share/X11/xkb/rules/base.lst and /usr/share/X11/xkb/rules/evdev.lst under section `! layout`, add following line
+### To the file /usr/share/X11/xkb/rules/base.lst and /usr/share/X11/xkb/rules/evdev.lst under section `! variant`, add following line
 ```
-diktor          Russian Typewriter Diktor
+diktor 	  ru: Russian (diktor)
 ```
-3. To the file /usr/share/X11/xkb/rules/base.xml and /usr/share/X11/xkb/rules/evdev.xml under section `<layoutList>`, add following lines
+### To the file `/usr/share/X11/xkb/rules/base.xml` and `/usr/share/X11/xkb/rules/evdev.xml` add diktor as a variant to the Russian language
+```
+<variant>
+  <configItem>
+    <name>diktor</name>
+    <description>Russian (diktor)</escription>
+  </configItem>
+</variant>
+```
+This should be placed somewhere after 
 ```
 <layout>
-      <configItem>
-        <name>diktor</name>
-        <shortDescription>diktor</shortDescription>
-          <description>Typewriter Russian Diktor</description>
-        <languageList><iso639Id>rus</iso639Id></languageList>
-      </configItem>
-    <variantList/>
-</layout>
+  <configItem>
+    <name>ru</name>
+    <!-- Keyboard indicator for Russian ayouts -->
+    <shortDescription>ru</shortDescription>
+    <description>Russian</description>
+    <languageList>
+      <iso639Id>rus</iso639Id>
+    </languageList>
+  </configItem>
+  <variantList>
 ```
+
 
 For more information, visit https://ubuntu-mate.community/t/make-your-own-custom-keyboard-layout-for-linux/19733
 
