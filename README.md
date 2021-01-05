@@ -95,7 +95,7 @@ place the following
       };
 ```
 
-### To the file /usr/share/X11/xkb/rules/base.lst and /usr/share/X11/xkb/rules/evdev.lst under section `! variant`, add following line
+### To the file `/usr/share/X11/xkb/rules/base.lst` and `/usr/share/X11/xkb/rules/evdev.lst` under section `! variant`, add following line
 ```
 diktor 	  ru: Russian (diktor)
 ```
@@ -130,7 +130,7 @@ For iBus, add into file `/usr/share/ibus/component/simple.xml` somewhere under s
     <name>xkb:ru:diktor:rus</name>
     <language>ru</language>
     <license>GPL</license>
-    <author>Oleksandr Dievri o.ievri@gmail.com</author>
+    <author>Oleksandr Dievri</author>
     <layout>ru</layout>
     <layout_variant>diktor</ayout_variant>
     <longname>Russian (diktor)</longname>
