@@ -105,7 +105,7 @@ diktor 	  ru: Russian (diktor)
 <variant>
   <configItem>
     <name>diktor</name>
-    <description>Russian (diktor)</escription>
+    <description>Russian (diktor)</description>
   </configItem>
 </variant>
 ```
@@ -135,7 +135,7 @@ This should be placed somewhere after
     <layout>ru</layout>
     <layout_variant>diktor</ayout_variant>
     <longname>Russian (diktor)</longname>
-    <description>Russian (diktor)</escription>
+    <description>Russian (diktor)</description>
     <icon>ibus-keyboard</icon>
     <rank>1</rank>
 </engine>
