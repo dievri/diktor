@@ -133,7 +133,7 @@ This should be placed somewhere after
     <license>GPL</license>
     <author>Oleksandr Dievri</author>
     <layout>ru</layout>
-    <layout_variant>diktor</ayout_variant>
+    <layout_variant>diktor</layout_variant>
     <longname>Russian (diktor)</longname>
     <description>Russian (diktor)</description>
     <icon>ibus-keyboard</icon>
